@@ -1,0 +1,55 @@
+.divider {
+    margin: 20px auto;
+    height: 30px;
+    width: 500px;
+    background-color: red;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.social > div {
+    width: 33%;
+}
+
+.social_link {
+    display: flex;
+    
+}
+
+.social_text {
+    display: flex;
+    justify-content: center;
+}
+
+.social_icons {
+    display: flex;
+}
+
+.social_link_round_1 , .social_link_round_2 , .social_link_round_3  {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+
+.social_text_1 , .social_text_2 , .social_text_3 , .social_text_4  {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.social_icons_1 , .social_icons_2 , .social_icons_3 , .social_icons_4 , .social_icons_5 , .social_icons_6 , .social_icons_7 {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 100%;
+    margin-right: 10px;
+}
